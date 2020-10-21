@@ -20,8 +20,6 @@ provider "azurerm" {
   features {}
 }
 ```
-Declaremos la variable con el Token de acceso para autenticarnos en Digital Ocean.
-
 Una vez declarado este archivo, podremos inicializar nuestro proyecto. Esto conectará el proyecto con el API del proveedor mediante los plugins que requiera.
 
 ```
